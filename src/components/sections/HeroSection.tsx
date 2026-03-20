@@ -39,8 +39,8 @@ const HeroSection = () => (
             </p>
             <p className="text-xl md:text-2xl font-medium leading-relaxed md:leading-[2.5rem] mt-0 mb-16">
               <span className="font-bold">5 Aulas</span> para se{" "}
-              <span className="font-bold">Comunicar<br className="md:hidden" /> Assertivamente</span> com os{" "}
-              <span className="font-bold">Seus Filhos</span>.
+              <span className="font-bold">Comunicar Assertivamente</span><br />
+              com os <span className="font-bold">Seus Filhos</span>.
             </p>
             <div className="inline-block bg-cornSilk rounded-lg p-3 backdrop-blur-sm border border-wheat/70">
               <p className="text-lg font-bold tracking-wide">
