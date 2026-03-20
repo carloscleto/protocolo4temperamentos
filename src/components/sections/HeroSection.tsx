@@ -20,8 +20,8 @@ const HeroSection = () => (
         <div className="md:col-span-3 text-center md:text-left space-y-16">
           <div className="space-y-10 md:space-y-12">
             <p className="text-2xl md:text-3xl font-bold leading-relaxed md:leading-[2.5rem] mt-0">
-              Pare de Lutar Contra a Natureza do Seu Filho<br />
-              e Aprenda a Linguagem que Ele Entende.
+              <span className="md:hidden">Pare de Lutar Contra a Natureza<br />do Seu Filho e Aprenda<br />a Linguagem que Ele Entende.</span>
+              <span className="hidden md:inline">Pare de Lutar Contra a Natureza do Seu Filho<br />e Aprenda a Linguagem que Ele Entende.</span>
             </p>
             {/* Mobile mockup */}
             <div className="md:hidden relative group cursor-pointer w-full mb-8">
@@ -39,8 +39,8 @@ const HeroSection = () => (
             </p>
             <p className="text-xl md:text-2xl font-medium leading-relaxed md:leading-[2.5rem] mt-0 mb-16">
               <span className="font-bold">5 Aulas</span> para se{" "}
-              <span className="font-bold">Comunicar<br className="md:hidden" /> Assertivamente</span> com os{" "}
-              <span className="font-bold">Seus Filhos</span>.
+              <span className="font-bold">Comunicar Assertivamente</span><br />
+              com os <span className="font-bold">Seus Filhos</span>.
             </p>
             <div className="inline-block bg-cornSilk rounded-lg p-3 backdrop-blur-sm border border-wheat/70">
               <p className="text-lg font-bold tracking-wide">
