@@ -19,10 +19,9 @@ const HeroSection = () => (
       <div className="grid md:grid-cols-5 gap-8 items-start">
         <div className="md:col-span-3 text-center md:text-left space-y-16">
           <div className="space-y-10 md:space-y-12">
-            <p className="text-2xl md:text-3xl font-medium leading-relaxed mt-0">
-              <span className="font-bold">5 Aulas</span> para se&nbsp;
-              <span className="font-bold">Comunicar Assertivamente</span> com os&nbsp;
-              <span className="font-bold">Seus Filhos</span>.
+            <p className="text-2xl md:text-3xl font-bold leading-relaxed md:leading-[2.5rem] mt-0">
+              Pare de Lutar Contra a Natureza do Seu Filho<br />
+              e Aprenda a Linguagem que Ele Entende.
             </p>
             {/* Mobile mockup */}
             <div className="md:hidden relative group cursor-pointer w-full mb-8">
@@ -39,11 +38,9 @@ const HeroSection = () => (
               <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">castigar</span>.
             </p>
             <p className="text-xl md:text-2xl font-medium leading-relaxed md:leading-[2.5rem] mt-0 mb-16">
-              <span className="font-bold">
-                Pare de Lutar Contra a Natureza<br className="md:hidden" /> do Seu Filho
-                <span className="md:hidden"> </span><br className="hidden md:block" />
-                e Aprenda<br className="md:hidden" /> a Linguagem que Ele Entende.
-              </span>
+              <span className="font-bold">5 Aulas</span> para se{" "}
+              <span className="font-bold">Comunicar<br className="md:hidden" /> Assertivamente</span> com os{" "}
+              <span className="font-bold">Seus Filhos</span>.
             </p>
             <div className="inline-block bg-cornSilk rounded-lg p-3 backdrop-blur-sm border border-wheat/70">
               <p className="text-lg font-bold tracking-wide">
