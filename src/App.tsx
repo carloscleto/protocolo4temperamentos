@@ -4,6 +4,9 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
+import PoliticaPrivacidade from "./pages/PoliticaPrivacidade.tsx";
+import PoliticaCookies from "./pages/PoliticaCookies.tsx";
+import TermosServico from "./pages/TermosServico.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
