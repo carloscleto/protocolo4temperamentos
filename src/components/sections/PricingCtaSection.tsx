@@ -24,7 +24,7 @@ const PricingCtaSection = () => (
         </p>
       </div>
       <div className="w-full max-w-lg mx-auto">
-        <CtaButton text="QUERO APROVEITAR" />
+        <CtaButton text="QUERO APROVEITAR" href="https://pay.cakto.com.br/3d2bb4x_811174" />
       </div>
       <PaymentLogos />
     </div>

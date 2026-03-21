@@ -30,7 +30,7 @@ const FinalCtaSection = () => (
           </p>
         </div>
         <div className="w-full max-w-xl mx-auto">
-          <CtaButton text="QUERO MEU ACESSO" extraClasses="shadow-2xl" />
+          <CtaButton text="QUERO MEU ACESSO" href="https://pay.cakto.com.br/3d2bb4x_811174" extraClasses="shadow-2xl" />
         </div>
         <div className="mt-8 flex flex-col md:flex-row items-center gap-4 opacity-60 text-cornSilk/80 text-base">
           <div className="flex items-center gap-2">
