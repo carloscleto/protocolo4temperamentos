@@ -27,7 +27,7 @@ const FloatingCta = () => {
       <div className="bg-gradient-to-t from-white via-white/95 to-white/0 pt-10 pb-6 flex justify-center">
         <a
           href="#offer"
-          className="animate-pulse-glow bg-ctaCarrotOrange text-cornSilk py-7 px-20 md:px-28 rounded-full text-2xl md:text-3xl font-black inline-block shadow-xl"
+          className="animate-pulse-glow bg-ctaCarrotOrange text-prussianBlue py-7 px-20 md:px-28 rounded-full text-xl md:text-[1.75rem] font-black inline-block shadow-xl"
         >
           QUERO AGORA
         </a>
