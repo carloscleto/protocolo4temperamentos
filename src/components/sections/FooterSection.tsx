@@ -13,11 +13,11 @@ const FooterSection = () => (
           </span>
         </p>
         <div className="flex flex-wrap justify-center text-seaShell/70 gap-4 md:gap-6 mb-4">
-          <span className="cursor-pointer hover:text-brightGold/100 hover:font-bold transition-colors">Políticas de Privacidade</span>
+          <Link to="/politica-de-privacidade" className="cursor-pointer hover:text-brightGold/100 hover:font-bold transition-colors">Políticas de Privacidade</Link>
           <span className="hidden md:inline">|</span>
-          <span className="cursor-pointer hover:text-brightGold/100 hover:font-bold transition-colors">Políticas de Cookies</span>
+          <Link to="/politica-de-cookies" className="cursor-pointer hover:text-brightGold/100 hover:font-bold transition-colors">Políticas de Cookies</Link>
           <span className="hidden md:inline">|</span>
-          <span className="cursor-pointer hover:text-brightGold/100 hover:font-bold transition-colors">Termos de Serviço</span>
+          <Link to="/termos-de-servico" className="cursor-pointer hover:text-brightGold/100 hover:font-bold transition-colors">Termos de Serviço</Link>
         </div>
         <p className="text-xs max-w-2xl mx-auto leading-relaxed">
           Este produto não garante a obtenção de resultados.<br />
