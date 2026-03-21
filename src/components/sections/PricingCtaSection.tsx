@@ -2,7 +2,7 @@ import CtaButton from "@/components/CtaButton";
 import PaymentLogos from "@/components/PaymentLogos";
 
 const PricingCtaSection = () => (
-  <section className="w-full px-4 py-16 md:py-20 bg-prussianBlueDark text-cornSilk !pt-4 md:!pt-4 !pb-20 md:!pb-20">
+  <section id="offer" className="w-full px-4 py-16 md:py-20 bg-prussianBlueDark text-cornSilk !pt-4 md:!pt-4 !pb-20 md:!pb-20">
     <div className="max-w-6xl mx-auto flex flex-col gap-6">
       <div className="flex flex-col items-center mb-4">
         <p className="text-cornSilk text-lg mb-4">Você leva tudo isso</p>
@@ -24,7 +24,7 @@ const PricingCtaSection = () => (
         </p>
       </div>
       <div className="w-full max-w-lg mx-auto">
-        <CtaButton text="QUERO APROVEITAR" />
+        <CtaButton text="QUERO APROVEITAR" href="https://pay.cakto.com.br/3d2bb4x_811174" />
       </div>
       <PaymentLogos />
     </div>
