@@ -5,9 +5,10 @@ interface CtaButtonProps {
   href?: string;
   arrowDirection?: "right" | "down";
   extraClasses?: string;
+  onClick?: () => void;
 }
 
-const CtaButton = ({ text, href = "#pricing", arrowDirection = "right", extraClasses = "" }: CtaButtonProps) => {
+const CtaButton = ({ text, href = "#pricing", arrowDirection = "right", extraClasses = "", onClick }: CtaButtonProps) => {
   const ArrowIcon = arrowDirection === "down" ? ArrowDown : ArrowRight;
 
   return (
