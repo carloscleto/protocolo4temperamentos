@@ -60,6 +60,7 @@ const Index = () => {
     <FooterSection />
     <FloatingCta />
   </div>
-);
+  );
+};
 
 export default Index;
