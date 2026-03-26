@@ -76,3 +76,59 @@
     scroll-behavior: smooth;
   }
 }
+
+/* ─── MOCKUP ─────────────────────────────────────────── */
+.mockup-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .mockup-img {
+    width: 100%;
+    max-width: 470px;
+    aspect-ratio: 470 / 700;
+    object-fit: cover;
+    object-position: center center;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .mockup-img {
+    width: 100%;
+    max-width: 671px;
+    aspect-ratio: 671 / 672;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+/* ─── WOMAN WONDERING ────────────────────────────────── */
+.woman-wondering-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .woman-wondering-img {
+    width: 100%;
+    max-width: 480px;
+    aspect-ratio: 480 / 720;
+    object-fit: cover;
+    object-position: center center;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .woman-wondering-img {
+    width: 100%;
+    max-width: 526px;
+    aspect-ratio: 526 / 420;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
