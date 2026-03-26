@@ -6,14 +6,49 @@
     <title>Protocolo dos 4 Temperamentos</title>
     <meta name="description" content="5 Aulas para se Comunicar Assertivamente com os Seus Filhos. Identifique o temperamento dos seus filhos em minutos." />
     <link rel="icon" type="image/svg+xml" href="https://vitejs.dev/logo.svg" />
+
+    <!-- Preload LCP image — Desktop -->
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/D_Mockup_672px.webp"
+      type="image/webp"
+      media="(min-width: 769px)"
+    />
+    <!-- Preload LCP image — Mobile -->
+    <link
+      rel="preload"
+      as="image"
+      href="/assets/M_Mockup_700px.webp"
+      type="image/webp"
+      media="(max-width: 768px)"
+    />
+
+    <!-- DNS Prefetch e Preconnect para recursos externos -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+
+    <!-- Google Fonts com display=swap -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" />
+    </noscript>
+
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1Z8J5JXXH"></script>
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-Y1Z8J5JXXH"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-Y1Z8J5JXXH');
     </script>
+
     <!-- Meta Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)
@@ -28,14 +63,8 @@
       fbq('track', 'PageView');
     </script>
     <!-- End Meta Pixel Code -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/" />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1299839452017221&ev=PageView&noscript=1"
-    /></noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

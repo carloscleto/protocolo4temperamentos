@@ -1,5 +1,3 @@
-import womanImg from "@/assets/images/Woman_Wondering.webp";
-
 const voices = [
   '"Meu filho só me ouve quando eu grito?\u00A0Eu odeio isso."',
   '"Parece que eles me testam de propósito todo\u00A0dia."',
@@ -17,7 +15,27 @@ const HeadVoicesSection = () => (
       </h2>
       <div className="grid md:grid-cols-5 gap-8 items-center">
         <div className="md:col-span-2 mb-8 md:mb-0 mx-auto w-full max-w-md rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10">
-          <img alt="Mente Agitada" className="w-full h-[400px] object-cover object-center opacity-90 hover:opacity-100 transition-opacity duration-500" loading="lazy" width="500" height="400" src={womanImg} />
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcSet="/assets/M_Woman_Wondering_720px.webp"
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 769px)"
+              srcSet="/assets/D_Woman_Wondering_420px.webp"
+              type="image/webp"
+            />
+            <img
+              src="/assets/D_Woman_Wondering_420px.webp"
+              alt="Mente Agitada"
+              width={526}
+              height={420}
+              loading="lazy"
+              decoding="async"
+              className="woman-wondering-img w-full h-[400px] object-cover object-center opacity-90 hover:opacity-100 transition-opacity duration-500"
+            />
+          </picture>
         </div>
         <div className="md:col-span-3 grid gap-5">
           {voices.map((voice, i) => (

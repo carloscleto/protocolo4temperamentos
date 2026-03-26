@@ -1,12 +1,32 @@
 import { Link } from "react-router-dom";
-import logoImg from "@/assets/images/Logo.webp";
 
 const FooterSection = () => (
   <section className="w-full px-4 py-16 md:py-20 bg-prussianBlue text-cornSilk !pt-10 !pb-24">
     <div className="max-w-6xl mx-auto flex flex-col gap-6">
       <div className="max-w-6xl mx-auto px-4 text-center opacity-80 text-sm">
         <p className="mb-4 flex flex-col items-center gap-4">
-          <img alt="Clube Premium" className="w-[150px] h-[150px] object-contain" src={logoImg} />
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcSet="/assets/M_LOGO_270px.webp"
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 769px)"
+              srcSet="/assets/D_LOGO_150px.webp"
+              type="image/webp"
+            />
+            <img
+              src="/assets/D_LOGO_150px.webp"
+              alt="Logo Clube Premium BR"
+              width={150}
+              height={150}
+              loading="lazy"
+              decoding="async"
+              className="w-[150px] h-[150px] object-contain"
+              style={{ display: 'block' }}
+            />
+          </picture>
           <span>
             Copyright ©2026&nbsp;<span className="text-goldenBronze font-semibold opacity-100">Clube Premium BR</span>.<br />
             Todos os direitos reservados.
