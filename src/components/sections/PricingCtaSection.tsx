@@ -24,7 +24,7 @@ const PricingCtaSection = () => (
         </p>
       </div>
       <div className="w-full max-w-lg mx-auto">
-        <CtaButton text="QUERO APROVEITAR" href="https://pay.cakto.com.br/3d2bb4x_811174" />
+        <CtaButton text="QUERO APROVEITAR" href="https://pay.cakto.com.br/3d2bb4x_811174" onClick={() => { if (typeof window !== 'undefined' && window.gtag) { window.gtag('event', 'cta_click', { event_category: 'conversao', event_label: 'pricing_quero_aproveitar' }); } }} />
       </div>
       <PaymentLogos />
     </div>
