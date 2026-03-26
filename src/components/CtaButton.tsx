@@ -15,6 +15,11 @@ const CtaButton = ({ text, href = "#pricing", arrowDirection = "right", extraCla
     <div className="flex flex-col items-center gap-4 w-full">
       <a
         href={href}
+        onClick={(e) => {
+          if (onClick) {
+            onClick();
+          }
+        }}
         {...(href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
         className={`
           animate-pulse-glow
