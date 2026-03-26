@@ -7,6 +7,11 @@ const HeroSection = () => (
       <div className="flex justify-center mb-2">
         <img alt="Clube Premium" loading="eager" width="150" height="150" className="w-[150px] h-[150px] object-contain" src={logoImg} />
       </div>
+      <div className="flex justify-center">
+        <span className="inline-block px-3 py-1 rounded-full bg-ctaCarrotOrange/20 text-ctaCarrotOrange text-xs font-bold tracking-wide border border-ctaCarrotOrange">
+          MÉTODO EXCLUSIVO
+        </span>
+      </div>
       <div className="text-center space-y-12">
         <h1 className="text-4xl md:text-6xl font-black leading-tight mb-8 md:mb-12">
           Protocolo dos 4&nbsp;
