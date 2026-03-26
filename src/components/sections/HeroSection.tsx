@@ -1,11 +1,29 @@
-import logoImg from "@/assets/images/Logo.webp";
-import mockupImg from "@/assets/images/Mockup.webp";
-
 const HeroSection = () => (
   <section id="hero" className="w-full px-4 py-16 md:py-20 bg-prussianBlue text-almondCream overflow-hidden pt-6 md:!pt-10 md:!pb-24">
     <div className="max-w-6xl mx-auto flex flex-col gap-6">
       <div className="flex justify-center mb-2">
-        <img alt="Clube Premium" loading="eager" width="150" height="150" className="w-[150px] h-[150px] object-contain" src={logoImg} />
+        <picture>
+          <source
+            media="(max-width: 768px)"
+            srcSet="/assets/M_LOGO_270px.webp"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 769px)"
+            srcSet="/assets/D_LOGO_150px.webp"
+            type="image/webp"
+          />
+          <img
+            src="/assets/D_LOGO_150px.webp"
+            alt="Logo Clube Premium BR"
+            width={150}
+            height={150}
+            fetchPriority="high"
+            decoding="async"
+            className="w-[150px] h-[150px] object-contain"
+            style={{ display: 'block' }}
+          />
+        </picture>
       </div>
       <div className="flex justify-center">
         <span className="inline-block px-3 py-1 rounded-full bg-ctaCarrotOrange/20 text-ctaCarrotOrange text-xs font-bold tracking-wide border border-ctaCarrotOrange">
@@ -32,7 +50,22 @@ const HeroSection = () => (
             <div className="md:hidden relative group cursor-pointer w-full mb-8">
               <div className="absolute -inset-1 bg-gradient-to-r from-sanguine to-choleric rounded-3xl blur opacity-30 transition duration-1000"></div>
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 aspect-[4/5] bg-gray-900 flex items-center justify-center">
-                <img alt="Protocolo Mockup" loading="eager" width="500" height="500" className="absolute inset-0 w-full h-full object-cover opacity-60 transition duration-500" src={mockupImg} />
+                <picture>
+                  <source
+                    media="(max-width: 768px)"
+                    srcSet="/assets/M_Mockup_700px.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="/assets/M_Mockup_700px.webp"
+                    alt="Protocolo dos 4 Temperamentos - Mockup"
+                    width={470}
+                    height={700}
+                    fetchPriority="high"
+                    decoding="async"
+                    className="mockup-img absolute inset-0 w-full h-full object-cover opacity-60 transition duration-500"
+                  />
+                </picture>
               </div>
             </div>
             <p className="text-center md:text-left text-xl md:text-2xl font-bold leading-relaxed md:leading-[2.5rem] mb-8">
@@ -61,7 +94,22 @@ const HeroSection = () => (
         <div className="hidden md:block md:col-span-2 self-center relative group cursor-pointer w-full mt-8 md:mt-0">
           <div className="absolute -inset-1 bg-gradient-to-r from-sanguine to-choleric rounded-3xl blur opacity-30 transition duration-1000"></div>
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 aspect-[4/4] bg-gray-900 flex items-center justify-center">
-            <img alt="Protocolo Preview" loading="eager" width="500" height="500" className="absolute inset-0 w-full h-full object-cover opacity-60 transition duration-500" src={mockupImg} />
+            <picture>
+              <source
+                media="(min-width: 769px)"
+                srcSet="/assets/D_Mockup_672px.webp"
+                type="image/webp"
+              />
+              <img
+                src="/assets/D_Mockup_672px.webp"
+                alt="Protocolo dos 4 Temperamentos - Mockup"
+                width={671}
+                height={672}
+                fetchPriority="high"
+                decoding="async"
+                className="mockup-img absolute inset-0 w-full h-full object-cover opacity-60 transition duration-500"
+              />
+            </picture>
           </div>
         </div>
       </div>
