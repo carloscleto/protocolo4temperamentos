@@ -28,5 +28,6 @@ export default defineConfig(({ mode }) => ({
     },
     chunkSizeWarningLimit: 1000,
     minify: 'esbuild',
+    target: 'es2015',
   },
 }));
