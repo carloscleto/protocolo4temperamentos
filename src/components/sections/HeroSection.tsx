@@ -100,7 +100,7 @@ const HeroSection = () => (
             type="image/webp"
           />
           <img
-            src="/assets/D_Mockup_1000px.webp"
+            src="/assets/D_Mockup_672px.webp"
                 alt="Protocolo dos 4 Temperamentos - Mockup"
                 width={671}
                 height={672}
