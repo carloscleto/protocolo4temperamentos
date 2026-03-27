@@ -96,7 +96,7 @@ const HeroSection = () => (
             <picture>
               <source
                 media="(min-width: 769px)"
-            srcSet="/assets/D_Mockup_1000px.webp"
+            srcSet="/assets/D_Mockup_672px.webp"
             type="image/webp"
           />
           <img
