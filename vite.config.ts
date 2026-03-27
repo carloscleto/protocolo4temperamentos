@@ -19,13 +19,6 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom'],
-        },
-      },
-    },
     chunkSizeWarningLimit: 1000,
     minify: 'esbuild',
     target: 'es2015',
