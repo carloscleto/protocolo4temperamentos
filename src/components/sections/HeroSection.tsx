@@ -96,11 +96,11 @@ const HeroSection = () => (
             <picture>
               <source
                 media="(min-width: 769px)"
-                srcSet="/assets/D_Mockup_672px.webp"
-                type="image/webp"
-              />
-              <img
-                src="/assets/D_Mockup_672px.webp"
+            srcSet="/assets/D_Mockup_1000px.webp"
+            type="image/webp"
+          />
+          <img
+            src="/assets/D_Mockup_1000px.webp"
                 alt="Protocolo dos 4 Temperamentos - Mockup"
                 width={671}
                 height={672}
