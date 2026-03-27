@@ -1,7 +1,7 @@
 const items = [
   { name: "Protocolo dos 4 Temperamentos Completo ( 5 Aulas )", price: "R$ 197" },
-  { name: "Cards de Pronto-Socorro", price: "R$ 26" },
   { name: "Bônus ( Checklist de Identificação )", price: "R$ 37" },
+  { name: "Bônus ( Cards de Pronto-Socorro )", price: "R$ 26" },
   { name: "Bônus ( Guia de Sobrevivência )", price: "R$ 37" },
 ];
 
