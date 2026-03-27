@@ -62,7 +62,6 @@ const HeroSection = () => (
                     width={470}
                     height={700}
                     fetchPriority="high"
-                    decoding="async"
                     className="mockup-img absolute inset-0 w-full h-full object-cover opacity-60 transition duration-500"
                   />
                 </picture>
