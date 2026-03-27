@@ -1,7 +1,12 @@
-import FaqItem from "@/components/FaqItem";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "Como vou receber o acesso?", a: "Imediatamente após a confirmação do pagamento, você recebe um e-mail da plataforma (Kiwify) com seu login e senha." },
+  { q: "Como vou receber o acesso?", a: "Imediatamente após a confirmação do pagamento, você recebe um e-mail da plataforma (Cakto) com seu login e senha." },
   { q: "Como vou acessar e usar o Protocolo?", a: "Você recebe no e-mail o link de acesso imediato. Assiste as aulas, baixa os materiais e usa." },
   { q: "Em quanto tempo vejo resultado?", a: "No mesmo dia. Aplique uma técnica e veja a diferença. Os Cards e o Checklist ajudam na hora." },
   { q: "Serve para qualquer idade?", a: "Sim! O foco principal é de 2 a 12 anos, mas os princípios dos 4 temperamentos se aplicam desde bebês à adolescentes (e até adultos!)." },
@@ -19,11 +24,16 @@ const FaqSection = () => (
       <h2 className="!text-seaShell text-3xl font-black text-center mb-8">
         FAQ<br />Perguntas Frequentes
       </h2>
-      <div className="!bg-nightBlue !text-cornSilk rounded-3xl p-6 shadow-xl border-4 !p-0 overflow-hidden" style={{ borderColor: 'rgb(249, 115, 22)' }}>
+      <div className="!bg-nightBlue !text-cornSilk rounded-3xl shadow-xl border-4 overflow-hidden" style={{ borderColor: 'rgb(249, 115, 22)' }}>
         <div className="px-6">
-          {faqs.map((faq, i) => (
-            <FaqItem key={i} question={faq.q} answer={faq.a} />
-          ))}
+          <Accordion type="single" collapsible>
+            {faqs.map((faq, i) => (
+              <AccordionItem key={i} value={`item-${i}`}>
+                <AccordionTrigger>{faq.q}</AccordionTrigger>
+                <AccordionContent>{faq.a}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
       </div>
     </div>
