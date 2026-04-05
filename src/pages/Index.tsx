@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import CountdownTimer from "@/components/CountdownTimer";
 import HeroSection from "@/components/sections/HeroSection";
 import HeadVoicesSection from "@/components/sections/HeadVoicesSection";
 import WhySection from "@/components/sections/WhySection";
@@ -44,6 +45,7 @@ const Index = () => {
 
   return (
   <div className="font-sans bg-offWhite text-nightBlue antialiased">
+    <CountdownTimer />
     <HeroSection />
     <HeadVoicesSection />
     <WhySection />
