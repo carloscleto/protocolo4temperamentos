@@ -2,6 +2,7 @@ const voices = [
   '"Meu filho só me ouve quando eu grito?\u00A0Eu odeio isso."',
   '"Parece que eles me testam de propósito todo\u00A0dia."',
   '"Todo mundo fala baixo e tem obediência. Eu\u00A0só ganho birra."',
+  '"Ahhh... Eu não aguento mais minha Sogra me olhando atravessado."',
   '"Um filho explode, o outro trava.\u00A0E eu fico sem saber o que fazer."',
   '"As outras mães dão um olhar e resolve.\u00A0Eu viro a polícia da casa."',
   '"Existe um jeito simples pra entender os\u00A0temperamentos sem surtar?"',
