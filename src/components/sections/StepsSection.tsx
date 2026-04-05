@@ -1,5 +1,5 @@
 const steps = [
-  { num: "1", title: "Identifique Rápido", desc: "Assista a Aula 1. Use o Checklist e entenda o temperamento em minutos." },
+  { num: "1", title: "Identifique Rápido", desc: "Assista a Aula 1. Use o Checklist e entenda o Seu Filho em menos de 10 minutos." },
   { num: "2", title: "Cards de Pronto-Socorro", desc: "Assista à aula específica do seu filho. Salve os Cards de técnicas claras para usar agora." },
   { num: "3", title: "Fim dos Gritos", desc: "Use uma técnica hoje. O\u00A0ambiente acalma e você retoma a liderança sem surtar." },
 ];

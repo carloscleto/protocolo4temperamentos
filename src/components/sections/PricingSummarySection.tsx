@@ -8,6 +8,20 @@ const items = [
 const PricingSummarySection = () => (
   <section id="pricing" className="w-full px-4 py-16 md:py-20 bg-prussianBlueDark text-cornSilk !pt-20 !pb-0 md:!pb-0">
     <div className="max-w-6xl mx-auto flex flex-col gap-6">
+      <div className="max-w-2xl mx-auto space-y-5 mb-8 text-center">
+        <p className="text-base md:text-lg text-cornSilk/90 leading-relaxed">
+          O Preço Médio hoje no Brasil é de <span className="font-bold text-seaShell">R$250,00</span> por 1 Sessão de Terapia Infantil.
+        </p>
+        <p className="text-base md:text-lg text-cornSilk/90 leading-relaxed">
+          Se você for fazer um pacote de Sessões não vai sair menos que <span className="font-bold text-seaShell">R$1.500,00</span> no Total.
+        </p>
+        <p className="text-base md:text-lg text-cornSilk/90 leading-relaxed">
+          Mas pior que isso são os <span className="font-bold text-seaShell">anos de brigas e traumas emocionais</span> gerados pelas falhas de comunicação com seus filhos.
+        </p>
+        <p className="text-base md:text-lg font-bold text-seaShell leading-relaxed">
+          Com o Protocolo dos 4 Temperamentos você vai entender e conseguir se comunicar com o seu filho em menos de 10 minutos e começar a ter a relação tranquila que você sempre sonhou em casa!
+        </p>
+      </div>
       <div className="relative z-10 text-center">
         <div className="bg-white/5 p-6 rounded-3xl backdrop-blur-sm border-2 border-dashed border-cornSilk/80 text-left space-y-6 mb-8 max-w-2xl mx-auto">
           <div className="space-y-4">
