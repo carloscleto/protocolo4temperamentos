@@ -10,7 +10,7 @@ const PricingSummarySection = () => (
     <div className="max-w-6xl mx-auto flex flex-col gap-6">
       <div className="max-w-2xl mx-auto space-y-5 mb-8 text-center">
         <p className="text-base md:text-lg text-cornSilk/90 leading-relaxed">
-          <span className="md:hidden">O Preço Médio hoje no Brasil é de<br /><span className="font-bold text-seaShell">R$250,00</span> por 1 Sessão de Terapia Infantil.</span>
+          <span className="md:hidden">O Preço Médio hoje no Brasil é de <span className="font-bold text-seaShell">R$250,00</span><br />por 1 Sessão de Terapia Infantil.</span>
           <span className="hidden md:inline">O Preço Médio hoje no Brasil é de <span className="font-bold text-seaShell">R$250,00</span> por 1 Sessão de Terapia Infantil.</span>
         </p>
         <p className="text-base md:text-lg text-cornSilk/90 leading-relaxed">
