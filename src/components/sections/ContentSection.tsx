@@ -78,9 +78,9 @@ const ContentSection = () => (
               return (
                 <div key={i}>
                   {/* Mobile: image above card */}
-                  <div className="md:hidden flex flex-col items-center gap-3">
+                  <div className="md:hidden flex flex-col items-center gap-3 w-full">
                     {img}
-                    {card}
+                    <div className="w-full">{card}</div>
                   </div>
                   {/* Desktop: image beside card */}
                   <div className="hidden md:flex items-center gap-4">

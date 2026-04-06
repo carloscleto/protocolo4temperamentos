@@ -6,7 +6,8 @@ const FinalCtaSection = () => (
     <div className="max-w-6xl mx-auto flex flex-col gap-6">
       <div className="flex flex-col items-center text-center">
         <h2 className="text-2xl md:text-3xl font-black text-cornSilk leading-relaxed md:leading-[3rem] mb-8">
-          Sua chance de mudar o clima da sua casa<br className="hidden md:block" /> por menos de R$&nbsp;3,50 por dia.
+          <span className="md:hidden">Sua chance de mudar o clima<br />da sua casa por menos de<br />R$&nbsp;3,50 por dia.</span>
+          <span className="hidden md:inline">Sua chance de mudar o clima da sua casa<br /> por menos de R$&nbsp;3,50 por dia.</span>
         </h2>
         <div className="flex flex-col items-center mb-8">
           <p className="text-cornSilk/80 text-lg mb-4 font-medium">

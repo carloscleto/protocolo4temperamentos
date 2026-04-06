@@ -20,7 +20,7 @@ const ForYouSection = () => (
   <section className="w-full px-4 py-16 md:py-20 bg-prussianBlue text-cornSilk md:!pt-16 !pb-20 md:!pb-20">
     <div className="max-w-6xl mx-auto flex flex-col gap-6">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-black text-cornSilk mb-4">Será que este Protocolo é para mim?</h2>
+        <h2 className="text-3xl md:text-4xl font-black text-cornSilk mb-4">Será que este Protocolo<br className="md:hidden" /> é para mim?</h2>
         <p className="text-lg text-cornSilk/70 max-w-2xl mx-auto">
           Descubra se você se encaixa no perfil<br className="md:hidden" /> das mães, pais<br className="hidden md:block" /> e educadores<br className="md:hidden" /> que têm resultados.
         </p>
