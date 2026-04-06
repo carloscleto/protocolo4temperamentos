@@ -58,7 +58,7 @@ const ContentSection = () => (
           <div className="space-y-6">
             {bonuses.map((bonus, i) => {
               const card = (
-                <div className="bg-orange-50 p-4 rounded-xl border border-orange-100 flex gap-3 flex-1">
+                <div className="bg-orange-50 p-4 rounded-xl border border-orange-100 flex gap-3 flex-1 min-h-[88px]">
                   <bonus.Icon className="text-ctaTigerOrange shrink-0" size={24} aria-hidden="true" />
                   <div>
                     <h5 className="font-bold text-prussianBlue text-base">{bonus.title}</h5>
