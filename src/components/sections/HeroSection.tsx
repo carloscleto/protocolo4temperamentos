@@ -28,7 +28,7 @@ const HeroSection = () => (
       <div className="text-center space-y-6">
         <p className="text-xl md:text-2xl font-bold leading-snug md:leading-[2rem] text-cornSilk">
           <span className="md:hidden">O Guia Prático para Identificar<br />o Temperamento do seu Filho<br />e Acabar com os Gritos em Casa<br /><span className="text-2xl">em 7 Dias</span><br /><span className="text-base">(Mesmo que Você já tenha Tentado de Tudo)</span></span>
-          <span className="hidden md:inline">O Guia Prático para Identificar o Temperamento do seu Filho<br />e Acabar com os Gritos em Casa em 7 Dias<br />(Mesmo que Você já tenha Tentado de Tudo)</span>
+          <span className="hidden md:inline text-[#fefae1]">O Guia Prático para Identificar o Temperamento do seu Filho<br />e Acabar com os Gritos em Casa em 7 Dias<br />(Mesmo que Você já tenha Tentado de Tudo)</span>
         </p>
       </div>
       <div className="flex justify-center">
