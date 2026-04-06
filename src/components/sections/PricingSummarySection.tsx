@@ -10,16 +10,20 @@ const PricingSummarySection = () => (
     <div className="max-w-6xl mx-auto flex flex-col gap-6">
       <div className="max-w-2xl mx-auto space-y-5 mb-8 text-center">
         <p className="text-base md:text-lg text-cornSilk/90 leading-relaxed">
-          O Preço Médio hoje no Brasil é de <span className="font-bold text-seaShell">R$250,00</span> por 1 Sessão de Terapia Infantil.
+          <span className="md:hidden">O Preço Médio hoje no Brasil é de<br /><span className="font-bold text-seaShell">R$250,00</span> por 1 Sessão de Terapia Infantil.</span>
+          <span className="hidden md:inline">O Preço Médio hoje no Brasil é de <span className="font-bold text-seaShell">R$250,00</span> por 1 Sessão de Terapia Infantil.</span>
         </p>
         <p className="text-base md:text-lg text-cornSilk/90 leading-relaxed">
-          Se você for fazer um pacote de Sessões não vai sair menos que <span className="font-bold text-seaShell">R$1.500,00</span> no Total.
+          <span className="md:hidden">Se você for fazer um pacote de Sessões<br />não vai sair menos que <span className="font-bold text-seaShell">R$1.500,00</span>.</span>
+          <span className="hidden md:inline">Se você for fazer um pacote de Sessões não vai sair menos que <span className="font-bold text-seaShell">R$1.500,00</span>.</span>
         </p>
         <p className="text-base md:text-lg text-cornSilk/90 leading-relaxed">
-          Mas pior que isso são os <span className="font-bold text-seaShell">anos de brigas e traumas emocionais</span> gerados pelas falhas de comunicação com seus filhos.
+          <span className="md:hidden">Mas pior que isso são os <span className="font-bold text-seaShell">anos de brigas e<br />traumas emocionais</span> gerados pelas<br />falhas de comunicação com seus filhos.</span>
+          <span className="hidden md:inline">Mas pior que isso são os <span className="font-bold text-seaShell">anos de brigas e traumas emocionais</span> gerados pelas falhas de comunicação com seus filhos.</span>
         </p>
         <p className="text-base md:text-lg font-bold text-seaShell leading-relaxed">
-          Com o Protocolo dos 4 Temperamentos você vai entender e conseguir se comunicar com o seu filho em menos de 10 minutos e começar a ter a relação tranquila que você sempre sonhou em casa!
+          <span className="md:hidden">Com o Protocolo dos 4 Temperamentos<br />você vai entender e conseguir se comunicar<br />com o seu filho em menos de 10 minutos e<br />começar a ter a relação tranquila que<br />você sempre sonhou em casa!</span>
+          <span className="hidden md:inline">Com o Protocolo dos 4 Temperamentos você vai entender e conseguir se comunicar com o seu filho em menos de 10 minutos e começar a ter a relação tranquila que você sempre sonhou em casa!</span>
         </p>
       </div>
       <div className="relative z-10 text-center">

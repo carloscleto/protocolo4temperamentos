@@ -17,7 +17,7 @@ const WhySection = () => (
       <div className="mx-auto max-w-4xl p-6 md:p-8 bg-prussianBlueDark rounded-3xl border-2 border-dashed border-digitalBlue shadow-lg">
         <div className="flex items-center gap-4 mb-4">
           <CircleAlert size={32} className="text-pumpkinSpice shrink-0" aria-hidden="true" />
-          <h3 className="font-bold text-xl md:text-2xl">O Erro da Educação Genérica</h3>
+          <h3 className="font-bold text-[1.15rem] md:text-2xl whitespace-nowrap">O Erro da Educação Genérica</h3>
         </div>
         <ul className="space-y-4 text-cornSilk/80">
           {reasons.map((reason, i) => (

@@ -8,6 +8,33 @@ const lessons = [
   { title: "Aula 5 : Fleumático Ativo", desc: "Faça seu filho colaborar em transições sem estresse.", color: "rgb(0, 119, 182)", Icon: Droplets, bgClass: "bg-phlegmatic" },
 ];
 
+const bonuses = [
+  {
+    title: "Checklist de Identificação",
+    desc: "Descubra o temperamento dos seus filhos em minutos.",
+    Icon: CircleCheckBig,
+    mockup: "/assets/Mockup_Checklist.webp",
+    imgAlt: "Mockup Checklist de Identificação",
+    position: "right" as const,
+  },
+  {
+    title: "Cards de Pronto-Socorro",
+    desc: "Salve os Cards de técnicas para usar na hora da birra.",
+    Icon: BookOpen,
+    mockup: "/assets/Mockup_Cards.webp",
+    imgAlt: "Mockup Cards de Pronto-Socorro",
+    position: "left" as const,
+  },
+  {
+    title: "Guia de Sobrevivência",
+    desc: "Resolva conflitos entre irmãos.",
+    Icon: ShieldCheck,
+    mockup: "/assets/Mockup_Guia.webp",
+    imgAlt: "Mockup Guia de Sobrevivência",
+    position: "right" as const,
+  },
+];
+
 const ContentSection = () => (
   <section className="w-full px-4 py-16 md:py-20 bg-prussianBlueDark text-cornSilk md:!pt-16 !pb-20">
     <div className="max-w-6xl mx-auto flex flex-col gap-6">
@@ -28,28 +55,44 @@ const ContentSection = () => (
         ))}
         <div className="pt-6">
           <div className="inline-block bg-pumpkinSpice text-seaShell px-4 py-1 rounded-full text-base font-bold mb-4">🎁 3 BÔNUS EXCLUSIVOS</div>
-          <div className="space-y-3">
-            <div className="bg-orange-50 p-4 rounded-xl border border-orange-100 flex gap-3">
-              <CircleCheckBig className="text-ctaTigerOrange shrink-0" size={24} aria-hidden="true" />
-              <div>
-                <h5 className="font-bold text-prussianBlue text-base">Checklist de Identificação</h5>
-                <p className="text-sm text-gray-600">Descubra o temperamento dos seus filhos em minutos.</p>
-              </div>
-            </div>
-            <div className="bg-orange-50 p-4 rounded-xl border border-orange-100 flex gap-3">
-              <BookOpen className="text-ctaTigerOrange shrink-0" size={24} aria-hidden="true" />
-              <div>
-                <h5 className="font-bold text-prussianBlue text-base">Cards de Pronto-Socorro</h5>
-                <p className="text-sm text-gray-600">Salve os Cards de técnicas para usar na hora da birra.</p>
-              </div>
-            </div>
-            <div className="bg-orange-50 p-4 rounded-xl border border-orange-100 flex gap-3">
-              <ShieldCheck className="text-ctaTigerOrange shrink-0" size={24} aria-hidden="true" />
-              <div>
-                <h5 className="font-bold text-prussianBlue text-base">Guia de Sobrevivência</h5>
-                <p className="text-sm text-gray-600">Resolva conflitos entre irmãos.</p>
-              </div>
-            </div>
+          <div className="space-y-6">
+            {bonuses.map((bonus, i) => {
+              const card = (
+                <div className="bg-orange-50 p-4 rounded-xl border border-orange-100 flex gap-3 flex-1">
+                  <bonus.Icon className="text-ctaTigerOrange shrink-0" size={24} aria-hidden="true" />
+                  <div>
+                    <h5 className="font-bold text-prussianBlue text-base">{bonus.title}</h5>
+                    <p className="text-sm text-gray-600">{bonus.desc}</p>
+                  </div>
+                </div>
+              );
+              const img = (
+                <img
+                  src={bonus.mockup}
+                  alt={bonus.imgAlt}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-32 h-32 md:w-36 md:h-36 object-contain shrink-0"
+                />
+              );
+              return (
+                <div key={i}>
+                  {/* Mobile: image above card */}
+                  <div className="md:hidden flex flex-col items-center gap-3">
+                    {img}
+                    {card}
+                  </div>
+                  {/* Desktop: image beside card */}
+                  <div className="hidden md:flex items-center gap-4">
+                    {bonus.position === "left" ? (
+                      <>{img}{card}</>
+                    ) : (
+                      <>{card}{img}</>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
