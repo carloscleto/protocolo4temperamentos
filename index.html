@@ -28,6 +28,11 @@
       gtag('config', 'G-Y1Z8J5JXXH');
 
       function _loadThirdParty() {
+        // Google Fonts (non-render-blocking)
+        var fl = document.createElement('link');
+        fl.rel = 'stylesheet';
+        fl.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap';
+        document.head.appendChild(fl);
         // GA
         var g = document.createElement('script');
         g.src = 'https://www.googletagmanager.com/gtag/js?id=G-Y1Z8J5JXXH';
