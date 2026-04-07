@@ -1,9 +1,32 @@
 import familyImg from "@/assets/images/Mockup_Familia.webp";
+import creatorChildrenDesktop from "@/assets/images/D_Creator_Children.webp";
+import creatorChildrenMobile from "@/assets/images/M_Creator_Children.webp";
 
 const TestimonialSection = () => (
   <section className="w-full px-4 py-16 md:py-20 bg-prussianBlue text-cornSilk md:!pt-16">
     <div className="max-w-6xl mx-auto flex flex-col gap-6">
       <div className="flex flex-col items-center text-center">
+        {/* Creator with children image */}
+        <div className="mb-8">
+          {/* Mobile */}
+          <img
+            src={creatorChildrenMobile}
+            alt="Adriele Marques com seus filhos"
+            loading="lazy"
+            width={300}
+            height={400}
+            className="md:hidden rounded-2xl shadow-2xl border-4 border-white/10 object-cover w-[300px] h-[400px]"
+          />
+          {/* Desktop */}
+          <img
+            src={creatorChildrenDesktop}
+            alt="Adriele Marques com seus filhos"
+            loading="lazy"
+            width={400}
+            height={533}
+            className="hidden md:block rounded-2xl shadow-2xl border-4 border-white/10 object-cover w-[400px] h-[533px]"
+          />
+        </div>
         <h2 className="text-2xl font-bold mb-8">"Eu sei como é tentar dar conta de&nbsp;tudo e se culpar."</h2>
         <div className="text-cornSilk mb-8 italic max-w-2xl mx-auto">
           <ul className="space-y-3 md:space-y-4 text-lg md:text-xl leading-relaxed md:leading-normal">
