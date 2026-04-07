@@ -45,75 +45,26 @@ const HeroSection = () => (
           <span className="text-phlegmatic">tos</span>
         </h1>
       </div>
-      <div className="grid md:grid-cols-5 gap-8 items-start">
-        <div className="md:col-span-3 text-center md:text-left space-y-16">
-          <div className="space-y-10 md:space-y-12">
-            <p className="text-2xl md:text-3xl font-bold leading-relaxed md:leading-[2.5rem] mt-0">
-              <span className="md:hidden">Pare de Lutar Contra a Natureza<br />do Seu Filho e Aprenda<br />a Linguagem que Ele Entende.</span>
-              <span className="hidden md:inline">Pare de Lutar Contra a Natureza do Seu Filho<br />e Aprenda a Linguagem que Ele Entende.</span>
+      <div className="max-w-3xl mx-auto text-center space-y-16">
+        <div className="space-y-10 md:space-y-12">
+          <p className="text-2xl md:text-3xl font-bold leading-relaxed md:leading-[2.5rem] mt-0">
+            <span className="md:hidden">5 Aulas para se<br />Comunicar Assertivamente<br />com os Seus Filhos.</span>
+            <span className="hidden md:inline">5 Aulas para se Comunicar Assertivamente<br />com os Seus Filhos.</span>
+          </p>
+          <p className="text-center text-xl md:text-2xl font-bold leading-relaxed md:leading-[2.5rem] mb-8">
+            Comunique-se com cada<br className="md:hidden" /> temperamento hoje<br />
+            <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">sem</span>&nbsp;
+            <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">gritar</span>,&nbsp;
+            <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">nem</span>&nbsp;
+            <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">castigar</span>.
+          </p>
+          <div className="inline-block bg-cornSilk rounded-lg p-3 backdrop-blur-sm border border-wheat/70">
+            <p className="text-lg font-bold tracking-wide">
+              <span className="text-sanguine">Identifique </span>
+              <span className="text-choleric">o temperamento </span>
+              <span className="text-melancholic">dos seus filhos </span>
+              <span className="text-phlegmatic">em minutos.</span>
             </p>
-            {/* Mobile mockup */}
-            <div className="md:hidden relative group cursor-pointer w-full mb-8">
-              <div className="absolute -inset-1 bg-gradient-to-r from-sanguine to-choleric rounded-3xl blur opacity-30 transition duration-1000"></div>
-              <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 aspect-[4/5] bg-gray-900 flex items-center justify-center">
-                <picture>
-                  <source
-                    media="(max-width: 768px)"
-                    srcSet="/assets/M_Mockup_700px.webp"
-                    type="image/webp"
-                  />
-                  <img
-                    src="/assets/M_Mockup_700px.webp"
-                    alt="Protocolo dos 4 Temperamentos - Mockup"
-                    width={470}
-                    height={700}
-                    fetchPriority="high"
-                    className="mockup-img absolute inset-0 w-full h-full object-cover opacity-60 transition duration-500"
-                  />
-                </picture>
-              </div>
-            </div>
-            <p className="text-center md:text-left text-xl md:text-2xl font-bold leading-relaxed md:leading-[2.5rem] mb-8">
-              Comunique-se com cada<br className="md:hidden" /> temperamento hoje<br />
-              <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">sem</span>&nbsp;
-              <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">gritar</span>,&nbsp;
-              <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">nem</span>&nbsp;
-              <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">castigar</span>.
-            </p>
-            <p className="text-xl md:text-2xl font-medium leading-relaxed md:leading-[2.5rem] mt-0 mb-16">
-              <span className="font-bold">5 Aulas</span> para se{" "}
-              <span className="font-bold">Comunicar Assertivamente</span><br />
-              com os <span className="font-bold">Seus Filhos</span>.
-            </p>
-            <div className="inline-block bg-cornSilk rounded-lg p-3 backdrop-blur-sm border border-wheat/70">
-              <p className="text-lg font-bold tracking-wide">
-                <span className="text-sanguine">Identifique </span>
-                <span className="text-choleric">o temperamento </span>
-                <span className="text-melancholic">dos seus filhos </span>
-                <span className="text-phlegmatic">em minutos.</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        {/* Desktop mockup */}
-        <div className="hidden md:block md:col-span-2 self-center relative group cursor-pointer w-full mt-8 md:mt-0">
-          <div className="absolute -inset-1 bg-gradient-to-r from-sanguine to-choleric rounded-3xl blur opacity-30 transition duration-1000"></div>
-          <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 aspect-[4/4] bg-gray-900 flex items-center justify-center">
-            <picture>
-              <source
-                media="(min-width: 769px)"
-            srcSet="/assets/D_Mockup_672px.webp"
-            type="image/webp"
-          />
-          <img
-            src="/assets/D_Mockup_672px.webp"
-                alt="Protocolo dos 4 Temperamentos - Mockup"
-                width={671}
-                height={672}
-                fetchPriority="high"
-                className="mockup-img absolute inset-0 w-full h-full object-cover opacity-60 transition duration-500"
-              />
-            </picture>
           </div>
         </div>
       </div>
