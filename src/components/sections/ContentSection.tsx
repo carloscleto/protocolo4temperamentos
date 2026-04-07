@@ -72,7 +72,7 @@ const ContentSection = () => (
                   alt={bonus.imgAlt}
                   loading="lazy"
                   decoding="async"
-                  className="w-32 h-32 md:w-36 md:h-36 object-contain shrink-0"
+                  className="w-44 h-44 md:w-48 md:h-48 object-contain shrink-0"
                 />
               );
               return (
