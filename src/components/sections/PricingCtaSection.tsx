@@ -23,7 +23,7 @@ const PricingCtaSection = () => (
           <br className="md:hidden" /> NO CARTÃO
         </p>
         <p className="text-cornSilk/70 text-center text-base mt-4 leading-relaxed font-semibold md:text-xl">
-          <span className="md:hidden">Anos de Traumas e Terapias prevenidos<br />por menos que o custo uma Pizza bem caprichada<br />para Você e sua Família!</span>
+          <span className="md:hidden">Anos de Traumas e Terapias prevenidos<br />por menos que o custo de uma<br /><span className="text-white text-lg font-bold">Pizza Bem Caprichada</span><br />para Você e sua Família!</span>
           <span className="hidden md:inline">Anos de Traumas e Terapias prevenidos por menos que<br />o custo uma Pizza bem caprichada para Você e sua Família!</span>
         </p>
       </div>

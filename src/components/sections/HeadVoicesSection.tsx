@@ -15,7 +15,7 @@ const HeadVoicesSection = () => (
         Quando a casa silencia,<br />sua cabeça não pára.
       </h2>
       <div className="grid md:grid-cols-5 gap-8 items-center">
-        <div className="md:col-span-2 mb-8 md:mb-0 mx-auto w-full max-w-md rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10">
+        <div className="md:col-span-2 mb-8 md:mb-0 mx-auto w-full max-w-[240px] md:max-w-md rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10">
           <picture>
             <source
               media="(max-width: 768px)"
