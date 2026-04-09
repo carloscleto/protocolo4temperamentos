@@ -48,15 +48,15 @@ const HeroSection = () => (
       <div className="max-w-3xl mx-auto text-center space-y-16">
         <div className="space-y-10 md:space-y-12">
           <p className="text-2xl md:text-3xl font-bold leading-relaxed md:leading-[2.5rem] mt-0">
-            <span className="md:hidden">5 Aulas para se Comunicar de um<br />Jeito que os Seus Filhos<br />te entendam.</span>
-            <span className="hidden md:inline">5 Aulas para se Comunicar de um<br />Jeito que os Seus Filhos te entendam.</span>
+            <span className="md:hidden">5 Aulas para Se Comunicar de um<br />Jeito que os Seus Filhos<br />Te Entendam.</span>
+            <span className="hidden md:inline">5 Aulas para Se Comunicar de um<br />Jeito que os Seus Filhos Te Entendam.</span>
           </p>
           <div className="inline-block bg-cornSilk rounded-lg p-3 backdrop-blur-sm border border-wheat/70">
             <p className="text-lg font-bold tracking-wide">
               <span className="text-sanguine">Identifique </span>
-              <span className="text-choleric">o temperamento </span>
-              <span className="text-melancholic">dos seus filhos </span>
-              <span className="text-phlegmatic">em minutos.</span>
+              <span className="text-choleric">o Temperamento </span>
+              <span className="text-melancholic">dos Seus Filhos </span>
+              <span className="text-phlegmatic">em 10 Minutos.</span>
             </p>
           </div>
         </div>
