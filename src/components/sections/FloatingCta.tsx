@@ -1,3 +1,4 @@
+/*
 import { useEffect, useState } from "react";
 
 const FloatingCta = () => {
@@ -36,4 +37,9 @@ const FloatingCta = () => {
   );
 };
 
+export default FloatingCta;
+*/
+
+// FloatingCta desativado temporariamente para teste A/B
+const FloatingCta = () => null;
 export default FloatingCta;
