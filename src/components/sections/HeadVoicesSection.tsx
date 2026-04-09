@@ -19,7 +19,9 @@ const HeadVoicesSection = () => (
           <picture>
             <source
               media="(max-width: 768px)"
-              srcSet="/assets/M_Woman_Wondering_720px.webp"
+              srcSet="/assets/M_Woman_Wondering_400px.webp"
+              type="image/webp"
+            />
               type="image/webp"
             />
             <source
