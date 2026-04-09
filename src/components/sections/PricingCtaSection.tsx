@@ -22,9 +22,13 @@ const PricingCtaSection = () => (
           </span>
           <br className="md:hidden" /> NO CARTÃO
         </p>
+        <p className="text-cornSilk/70 text-center text-sm md:text-base mt-4 leading-relaxed">
+          Anos de Traumas e Terapias prevenidos por menos que<br />
+          o custo uma Pizza bem caprichada para Você e sua Família!
+        </p>
       </div>
       <div className="w-full max-w-lg mx-auto">
-        <CtaButton text="QUERO APROVEITAR" href="https://pay.cakto.com.br/3d2bb4x_811174" onClick={() => { if (typeof window !== 'undefined' && window.gtag) { window.gtag('event', 'cta_click', { event_category: 'conversao', event_label: 'pricing_quero_aproveitar' }); } }} />
+        <CtaButton text="CHEGA DE BIRRAS" href="https://pay.cakto.com.br/3d2bb4x_811174" onClick={() => { if (typeof window !== 'undefined' && window.gtag) { window.gtag('event', 'cta_click', { event_category: 'conversao', event_label: 'pricing_quero_aproveitar' }); } }} />
       </div>
       <PaymentLogos />
     </div>
