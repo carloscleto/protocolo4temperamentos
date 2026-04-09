@@ -48,7 +48,7 @@ const HeroSection = () => (
       <div className="max-w-3xl mx-auto text-center space-y-16">
         <div className="space-y-10 md:space-y-12">
           <p className="text-2xl md:text-3xl font-bold leading-relaxed md:leading-[2.5rem] mt-0">
-            <span className="md:hidden">5 Aulas para Se Comunicar de um<br />Jeito que os Seus Filhos<br />Te Entendam.</span>
+            <span className="md:hidden">5 Aulas para Se Comunicar<br />de um Jeito que os Seus Filhos<br />Te Entendam.</span>
             <span className="hidden md:inline">5 Aulas para Se Comunicar de um<br />Jeito que os Seus Filhos Te Entendam.</span>
           </p>
           <div className="inline-block bg-cornSilk rounded-lg p-3 backdrop-blur-sm border border-wheat/70">
