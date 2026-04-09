@@ -17,7 +17,7 @@ const CreatorSection = () => (
     <div className="max-w-6xl mx-auto flex flex-col gap-6">
       <div className="grid md:grid-cols-5 gap-8 md:gap-12 items-center max-w-6xl mx-auto">
         <div className="md:col-span-2 flex justify-center md:justify-end">
-          <div className="w-48 h-48 md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-cta shadow-2xl relative group">
+          <div className="w-72 h-72 md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-cta shadow-2xl relative group">
             <img alt="Adriele Marques" loading="lazy" width="400" height="400" className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110" src={creatorImg} />
           </div>
         </div>

@@ -54,7 +54,7 @@ const HeroSection = () => (
           <div className="inline-block bg-cornSilk rounded-lg p-3 backdrop-blur-sm border border-wheat/70">
             <p className="text-lg font-bold tracking-wide">
               <span className="text-sanguine">Identifique </span>
-              <span className="text-choleric">o Temperamento </span>
+              <span className="text-choleric">o Temperamento<br className="md:hidden" /> </span>
               <span className="text-melancholic">dos Seus Filhos </span>
               <span className="text-phlegmatic">em 10 Minutos.</span>
             </p>
