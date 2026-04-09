@@ -27,8 +27,8 @@ const HeroSection = () => (
       </div>
       <div className="text-center space-y-6">
         <p className="text-xl md:text-2xl font-bold leading-snug md:leading-[2rem] text-cornSilk">
-          <span className="md:hidden">O Guia Prático para Identificar<br />o Temperamento do seu Filho<br />e Acabar com os Gritos em Casa<br /><span className="text-2xl">em 7 Dias</span><br /><span className="text-base">(Mesmo que Você já tenha Tentado de Tudo)</span></span>
-          <span className="hidden md:inline text-[#fefae1]">O Guia Prático para Identificar o Temperamento do seu Filho<br />e Acabar com os Gritos em Casa em 7 Dias<br />(Mesmo que Você já tenha Tentado de Tudo)</span>
+          <span className="md:hidden">Elimine os <span className="text-2xl font-black text-sanguine">Gritos</span> e a <span className="text-2xl font-black text-choleric">Birra</span><br />em Casa em <span className="text-2xl font-black text-phlegmatic">até 7 Dias</span><br />com as <span className="text-2xl font-black text-melancholic">Técnicas Certas</span></span>
+          <span className="hidden md:inline text-[#fefae1]">Elimine os <span className="text-3xl font-black text-sanguine">Gritos</span> e a <span className="text-3xl font-black text-choleric">Birra</span> em Casa<br />em <span className="text-3xl font-black text-phlegmatic">até 7 Dias</span> com as <span className="text-3xl font-black text-melancholic">Técnicas Certas</span></span>
         </p>
       </div>
       <div className="flex justify-center">
@@ -48,15 +48,8 @@ const HeroSection = () => (
       <div className="max-w-3xl mx-auto text-center space-y-16">
         <div className="space-y-10 md:space-y-12">
           <p className="text-2xl md:text-3xl font-bold leading-relaxed md:leading-[2.5rem] mt-0">
-            <span className="md:hidden">5 Aulas para se<br />Comunicar Assertivamente<br />com os Seus Filhos.</span>
-            <span className="hidden md:inline">5 Aulas para se Comunicar Assertivamente<br />com os Seus Filhos.</span>
-          </p>
-          <p className="text-center text-xl md:text-2xl font-bold leading-relaxed md:leading-[2.5rem] mb-8">
-            Comunique-se com cada<br className="md:hidden" /> temperamento hoje<br />
-            <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">sem</span>&nbsp;
-            <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">gritar</span>,&nbsp;
-            <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">nem</span>&nbsp;
-            <span className="!font-semibold text-racingRed decoration-racingRed line-through decoration-[3px] opacity-80">castigar</span>.
+            <span className="md:hidden">5 Aulas para se Comunicar de um<br />Jeito que os Seus Filhos<br />te entendam.</span>
+            <span className="hidden md:inline">5 Aulas para se Comunicar de um<br />Jeito que os Seus Filhos te entendam.</span>
           </p>
           <div className="inline-block bg-cornSilk rounded-lg p-3 backdrop-blur-sm border border-wheat/70">
             <p className="text-lg font-bold tracking-wide">
