@@ -22,7 +22,7 @@ const PricingCtaSection = () => (
           </span>
           <br className="md:hidden" /> NO CARTÃO
         </p>
-        <p className="text-cornSilk/70 text-center text-sm md:text-base mt-4 leading-relaxed">
+        <p className="text-cornSilk/70 text-center text-sm mt-4 leading-relaxed md:text-lg font-medium">
           Anos de Traumas e Terapias prevenidos por menos que<br />
           o custo uma Pizza bem caprichada para Você e sua Família!
         </p>
